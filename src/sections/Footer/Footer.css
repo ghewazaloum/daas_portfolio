@@ -1,0 +1,17 @@
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #181616ef;
+    gap: 20px;
+}
+.footer .iconCircle{
+    transition: 1s;
+    color:var(--color-Strong) ;
+    font-size: 20px;
+}
+.footer .iconCircle:hover {
+    translate: 0 5px ;
+}

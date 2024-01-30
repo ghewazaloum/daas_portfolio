@@ -1,0 +1,18 @@
+.InfoList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    padding: 10px;
+    color: var(--color-Primary) ;
+    width: 90%;
+
+}
+.InfoList li p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black; */
+}
