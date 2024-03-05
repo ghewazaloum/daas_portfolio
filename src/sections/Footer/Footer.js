@@ -8,7 +8,7 @@ function Footer (){
             <a className='iconCircle' href='https://github.com/Daas33'>
                     <FaGithub/>
             </a>
-            <a className='iconCircle' href='https://wa.me/+963995292968'>
+            <a className='iconCircle' href='https://wa.me/+971542156858'>
                     <FaWhatsapp/>
             </a>
             <a className='iconCircle' href='mailto:hatweekdaas@gmail.com'>

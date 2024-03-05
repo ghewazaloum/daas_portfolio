@@ -8,6 +8,7 @@ import { Container , GlassContainer ,Navbar ,ContainerWithImage, CardContainer ,
   import { TbApi ,TbFileTypeCss} from "react-icons/tb";
   import wadiMed from './Assests/Images/wadiMed.png' ;
   import bear from './Assests/Images/bear.png' ;
+  import sneakPeak from './Assests/Images/sneakPeak.png' ;
 
 function App() {
   return (
@@ -45,9 +46,18 @@ function App() {
 
       </Container>
       <ContainerWithImage2>
-        <HeadingWithoutIcon>work</HeadingWithoutIcon>/
+        <HeadingWithoutIcon>work</HeadingWithoutIcon>
         <CardContainer>
-        <WorkCard>
+            <WorkCard>
+              <div className='imageDiv'>
+                <img className='image' src={sneakPeak} alt='sneakPeak online shop'/>
+              </div>
+              <h4>sneakPeak online shop</h4>
+              <div className='workButtons'>
+                <Button href={"https://github.com/ghewazaloum/shoes.git"}>github</Button>
+            </div>
+            </WorkCard>
+            <WorkCard>
               <div className='imageDiv'>
                 <img className='image' src={wadiMed} alt='alwadi medical center'/>
               </div>
@@ -59,7 +69,7 @@ function App() {
             </WorkCard>
             <WorkCard>
               <div className='imageDiv'>
-                <img className='image' src={bear} alt='alwadi medical center'/>
+                <img className='image' src={bear} alt='bear'/>
               </div>
               <h4>Bear social media app</h4>
               <div className='workButtons'>
@@ -76,6 +86,7 @@ function App() {
                  <Button href={"https://github.com/Daas33/chating.git"}>github</Button>
             </div>
             </WorkCard>
+     
         </CardContainer>
       </ContainerWithImage2>
       <Footer/>
