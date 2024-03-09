@@ -61,7 +61,7 @@ function App() {
               <div className='imageDiv'>
                 <img className='image' src={wadiMed} alt='alwadi medical center'/>
               </div>
-              <h4>alWadi medical center web app</h4>
+              <h4>alWadi medical center application</h4>
               <div className='workButtons'>
                   <Button href={"https://github.com/ghewazaloum/WadiMedicalCenter.git"}>github</Button>
                   <Button href={"https://www.figma.com/file/g2QP6tQH5pGpR2gwjBkkts/medical-center?type=design&node-id=83%3A9&mode=design&t=nbUOqLubZyFsem70-1"}>Figma</Button>
