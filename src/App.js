@@ -2,13 +2,14 @@ import {ImageBox ,Information ,Headings, Cards,Shape ,HeadingWithoutIcon, InfoLi
 import './App.css';
 import { Container , GlassContainer ,Navbar ,ContainerWithImage, CardContainer ,
   GlassContainerFlexColumn, ContainerWithImage2,Footer} from './sections/index';
-  import { FaPython ,FaReact,FaGithub ,FaDocker   } from "react-icons/fa";  
+  import { FaPython ,FaReact,FaGithub ,FaDocker ,FaBootstrap  } from "react-icons/fa";  
   import { SiDjango } from "react-icons/si";
   import { IoLogoJavascript } from "react-icons/io";
   import { TbApi ,TbFileTypeCss} from "react-icons/tb";
   import wadiMed from './Assests/Images/wadiMed.png' ;
   import bear from './Assests/Images/bear.png' ;
   import sneakPeak from './Assests/Images/sneakPeak.png' ;
+  import { PiFileHtml } from "react-icons/pi";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
             <Cards skill='React JS'><FaReact/></Cards>
             <Cards skill='Git'><FaGithub/></Cards>
             <Cards skill='Docker'><FaDocker /></Cards>
+            <Cards skill='CSS'><TbFileTypeCss/></Cards>
+            <Cards skill='Bootstrap'><FaBootstrap/></Cards>
+            <Cards skill='HTML'><PiFileHtml /></Cards>
           </CardContainer>
       </ContainerWithImage>
       <Container>
