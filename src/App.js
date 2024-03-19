@@ -67,7 +67,8 @@ function App() {
               </div>
               <h4>alWadi medical center application</h4>
               <div className='workButtons'>
-                  <Button href={"https://github.com/ghewazaloum/WadiMedicalCenter.git"}>github</Button>
+                  <Button href={"https://github.com/ghewazaloum/WadiMedicalCenter.git"}>react code</Button>
+                  <Button href={"https://github.com/ghewazaloum/WadiMedicalCenter.git"}>django code</Button>
                   <Button href={"https://www.figma.com/file/g2QP6tQH5pGpR2gwjBkkts/medical-center?type=design&node-id=83%3A9&mode=design&t=nbUOqLubZyFsem70-1"}>Figma</Button>
             </div>
             </WorkCard>
