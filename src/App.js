@@ -2,11 +2,12 @@ import {ImageBox ,Information ,Headings, Cards,Shape ,HeadingWithoutIcon, InfoLi
 import './App.css';
 import { Container , GlassContainer ,Navbar ,ContainerWithImage, CardContainer ,
   GlassContainerFlexColumn, ContainerWithImage2,Footer} from './sections/index';
-  import { FaPython ,FaReact,FaGithub ,FaDocker ,FaBootstrap  } from "react-icons/fa";  
+  import { FaPython ,FaReact,FaGithub ,FaDocker ,FaBootstrap,FaVuejs  } from "react-icons/fa";  
   import { SiDjango } from "react-icons/si";
   import { IoLogoJavascript } from "react-icons/io";
   import { TbApi ,TbFileTypeCss} from "react-icons/tb";
   import { PiFileHtml } from "react-icons/pi";
+  import { SiMicrosoftazure  ,SiMui } from "react-icons/si";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
             <Cards skill='CSS'><TbFileTypeCss/></Cards>
             <Cards skill='Bootstrap'><FaBootstrap/></Cards>
             <Cards skill='HTML'><PiFileHtml /></Cards>
+            <Cards skill='Material UI'><SiMui/></Cards>
+            <Cards skill='Azure'><SiMicrosoftazure/></Cards>
+            <Cards skill='Vue.js'><FaVuejs/></Cards>
           </CardContainer>
       </ContainerWithImage>
       <Container>
