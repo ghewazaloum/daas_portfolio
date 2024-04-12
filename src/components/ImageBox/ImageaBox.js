@@ -1,9 +1,8 @@
-import daas from '../../Assests/Images/daas.png'
 import './ImageBox.css';
 function ImageBox(){
     return(
         <div className="image-box">
-            <img src={daas} alt="daas hatweek"/>
+            <img src="https://i.ibb.co/9cbr3s3/daas.png" alt="daas hatweek"/>
         </div>
     );
 }
