@@ -59,7 +59,8 @@ function App() {
               </div>
               <h4>sneakPeak online shop</h4>
               <div className='workButtons'>
-                <Button href={"https://github.com/ghewazaloum/shoes.git"}>github</Button>
+                <Button href={"https://drive.google.com/file/d/1OKaozp55U_7A2l4JD0SONurnZWZKnKm-/view?usp=sharing&usp=embed_facebook"}>Promo</Button>
+                <Button href={"https://drive.google.com/file/d/1TOZ0-cTUgE5uV7-Bnkls3RSYPDS-HBgl/view?usp=sharing&usp=embed_facebook"}>Review</Button>
             </div>
             </WorkCard>
             <WorkCard>
@@ -68,8 +69,8 @@ function App() {
               </div>
               <h4>alWadi medical center application</h4>
               <div className='workButtons'>
-                  <Button href={"https://github.com/ghewazaloum/WadiMedicalCenter.git"}>frontend</Button>
-                  <Button href={"https://github.com/Daas33/WadiMedicalCenter"}>backend</Button>
+              <Button href={"https://drive.google.com/file/d/10sJcHTLdjDuVWmFH9Rf59hxNnnKyR5uW/view?usp=sharing&usp=embed_facebook"}>Promo</Button>
+                <Button href={"https://drive.google.com/file/d/1X3d6VgvA2tC6izAjLqsOn2Y3XwLdcMGq/view?usp=sharing&usp=embed_facebook"}>Review</Button>
                   <Button href={"https://www.figma.com/file/g2QP6tQH5pGpR2gwjBkkts/medical-center?type=design&node-id=83%3A9&mode=design&t=nbUOqLubZyFsem70-1"}>Figma</Button>
             </div>
             </WorkCard>
@@ -81,6 +82,15 @@ function App() {
               <div className='workButtons'>
                  <Button href={" https://github.com/Daas33/Bear.git"}>github</Button>
                   <Button href={"https://bear-socialmedia.netlify.app/"}>netlify</Button>
+            </div>
+            </WorkCard>
+            <WorkCard>
+              <div className='imageDiv'>
+                <img className='image' src="https://i.ibb.co/1vrYmH7/wbid.jpg" alt='bear'/>
+              </div>
+              <h4>W_bid app</h4>
+              <div className='workButtons'>
+              <Button href={"https://drive.google.com/file/d/1CofBuQT81dTfcVVcIM1y5agCuFyIJVG1/view"}>Promo</Button>
             </div>
             </WorkCard>
             <WorkCard>
