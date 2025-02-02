@@ -102,6 +102,24 @@ function App() {
                  <Button href={"https://github.com/Daas33/chating.git"}>github</Button>
             </div>
             </WorkCard>
+            <WorkCard>
+              {/* <div className='imageDiv'>
+                <img className='image' src={bear} alt='alwadi medical center'/>
+              </div> */}
+              <h4>forms-easy website</h4>
+              <div className='workButtons'>
+                 <Button href={"https://github.com/Daas33/forms-easy"}>github</Button>
+            </div>
+            </WorkCard>
+            <WorkCard>
+              {/* <div className='imageDiv'>
+                <img className='image' src={bear} alt='alwadi medical center'/>
+              </div> */}
+              <h4>analysis app</h4>
+              <div className='workButtons'>
+                 <Button href={"https://github.com/Daas33/analysis-app"}>github</Button>
+            </div>
+            </WorkCard>
      
         </CardContainer>
       </ContainerWithImage2>
